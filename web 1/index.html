@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Registrasi Mahasiswa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Form Registrasi Mahasiswa</h2>
+    <form id="formReg">
+      <label for="nama">Nama Mahasiswa</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama...">
+
+      <label for="nim">NRP</label>
+      <input type="text" id="nim" name="nim" placeholder="Masukkan NIM...">
+
+      <label for="matkul">Mata Kuliah</label>
+      <input type="text" id="matkul" name="matkul" placeholder="Masukkan mata kuliah...">
+
+      <label for="dosen">Dosen</label>
+      <input type="text" id="dosen" name="dosen" placeholder="Masukkan nama dosen...">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan email aktif...">
+
+      <label for="jurusan">Jurusan</label>
+      <select id="jurusan" name="jurusan">
+        <option value="">Pilih Jurusan</option>
+        <option value="Informatika">Informatika</option>
+        <option value="Sistem Informasi">Sistem Informasi</option>
+        <option value="Teknik Komputer">Teknik Komputer</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
